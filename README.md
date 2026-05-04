@@ -3,6 +3,8 @@
 
 # Auto Cached Preview
 
+<img width="1892" height="865" alt="image" src="https://github.com/user-attachments/assets/1fbcfad3-0d67-4f5f-b337-161f28284d8d" />
+
 A custom node for ComfyUI that allows you to cache an image and its mask to avoid recalculating upstream steps in your workflow.
 
 Ideal for single-image creation workflows where you want to adjust final parameters (upscale, filters, color correction, inpainting) without having to rerun your KSamplers.
