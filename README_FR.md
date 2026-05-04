@@ -1,5 +1,7 @@
 # Auto Cached Preview
 
+<img width="1892" height="865" alt="image" src="https://github.com/user-attachments/assets/4a78399d-0062-40f9-8dea-4392f6f973bb" />
+
 Un nœud personnalisé  pour ComfyUI qui permet de mettre en cache une image et son masque pour éviter de recalculer les étapes en amont de votre workflow.
 
 Idéal pour les workflows de création d'image unique où vous souhaitez ajuster des paramètres finaux (upscale, filtres, correction colorimétrique, inpainting) sans avoir à relancer vos KSamplers.
