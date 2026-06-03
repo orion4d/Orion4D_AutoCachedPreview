@@ -12,6 +12,8 @@ Ideal for single-image creation workflows where you want to adjust final paramet
 
 ## ✨ Features
 
+* **Clipboard image paste:** Paste an image directly from your system clipboard into the node cache using the Paste image button.
+* **Instant cache clearing:** Remove the cached image and clear the node preview with the Clear cache button.
 * **Automatic caching:** Saves the last received image and its mask to the disk.
 * **Smart fallback:** If you disconnect the node's `image` input, it instantly reloads the last cached image.
 * **Automatic mask management:** Automatically extracts the mask from the image's Alpha channel if it exists. Otherwise, generates a default empty mask.

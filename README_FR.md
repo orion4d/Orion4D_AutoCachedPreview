@@ -1,7 +1,5 @@
 # Auto Cached Preview
 
-<img width="1892" height="865" alt="image" src="https://github.com/user-attachments/assets/4a78399d-0062-40f9-8dea-4392f6f973bb" />
-
 Un nœud personnalisé  pour ComfyUI qui permet de mettre en cache une image et son masque pour éviter de recalculer les étapes en amont de votre workflow.
 
 Idéal pour les workflows de création d'image unique où vous souhaitez ajuster des paramètres finaux (upscale, filtres, correction colorimétrique, inpainting) sans avoir à relancer vos KSamplers.
@@ -9,6 +7,8 @@ Idéal pour les workflows de création d'image unique où vous souhaitez ajuster
 
 ## ✨ Fonctionnalités
 
+* **Collage depuis le presse-papiers :** Collez directement une image depuis le presse-papiers système dans le cache du node avec le bouton Paste image.
+* **Nettoyage instantané du cache :** Supprime l’image mise en cache et vide la preview du node avec le bouton Clear cache.
 * **Mise en cache automatique :** Enregistre la dernière image reçue et son masque sur le disque.
 * **Fallback intelligent :** Si vous déconnectez l'entrée `image` du nœud, il recharge instantanément la dernière image mise en cache.
 * **Gestion automatique des masques :** Extrait automatiquement le masque du canal Alpha de l'image si celui-ci existe. Sinon, génère un masque vide par défaut.
